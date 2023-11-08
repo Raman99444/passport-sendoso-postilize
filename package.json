@@ -1,0 +1,38 @@
+{
+  "name": "passport-sendoso-postilize",
+  "version": "1.0.1",
+  "description": "This package with slight modification with sendoso auth flow",
+  "keywords": [
+    "passport",
+    "sendoso",
+    "auth",
+    "authentication",
+    "identity"
+  ],
+   "author": {
+    "name": "Ramachandran",
+    "email": "pramachandran.mca@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-sendoso-oauth",
+  "dependencies": {
+    "passport-oauth": "~1.0.0",
+    "pkginfo": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "~2.0.2",
+    "underscore": "~1.5.2"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/mocha test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 6.2"
+  }
+}
